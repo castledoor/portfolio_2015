@@ -39,7 +39,7 @@ header h1 {
   letter-spacing: 3px;
   line-height: 0.8;
   padding-top: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "happy_foxcondensed";
 }
 header h1 span {
   text-transform: uppercase;
@@ -50,6 +50,25 @@ header h1 span {
 header p {
   padding-top: 30px;
 }
+
+.description h1 {
+  font-family: "comfortaa_bold";
+}
+
+.description a {
+  color: black;
+  font-family: "comfortaa_bold";
+}
+
+.description a:hover {
+  color: black;
+}
+
+.description p {
+  font-family: 'comfortaa_reg';
+  line-height: 23px;
+}
+
 
 .gallery {
   padding: 0px 0 20px;
@@ -121,7 +140,7 @@ header p {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: -13px;
   left: 0;
   padding-top: 100px;
   background: #BFB89B;
@@ -133,7 +152,7 @@ header p {
   border-bottom: 1px solid #d0d0d0;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  /*transition: all 0.5s ease-in-out;*/
 }
 .port img {
   width: 50%;
@@ -146,9 +165,8 @@ header p {
   overflow: auto;
 }
 .port h1 {
-  font-size: 35px;
-  line-height: 2.3;
-  padding: 0;
+  font-size: 28px;
+  padding-bottom: 20px;
 }
 .port > * {
   opacity: 0;
@@ -191,12 +209,9 @@ header p {
   transition: all 0.3s ease-in-out;
 }
 
-/*everbutton */
-
-
-
-
-
+.green {
+  color: #5F8465;
+}
 
 .wordy {
   padding-top: 10px;
