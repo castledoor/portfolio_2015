@@ -1,0 +1,49 @@
+#header {
+	font-size: 90px;
+	text-align: center;
+	font-family: "happy_foxcondensed";
+	margin-top: 10px;
+}
+
+
+.background {
+	background-color: #BFB89B;
+	perspective: 15em;
+}
+
+#speech-bubble-intro {
+  position: relative;
+  margin: .5em auto;
+  padding: 1em;
+  width: 7em; height: 4em;
+  border-radius: .25em;
+  transform: rotate(-4deg) rotateY(15deg);
+  font: 2em/4 Century Gothic, Verdana, sans-serif;
+  text-align: center;
+  background: #EBE6D5;
+}
+#speech-bubble-intro:before, .speech-bubble:after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+}
+#speech-bubble-intro:after {
+  top: 0; right: 0; bottom: 0; left: 0;
+  border-radius: inherit;
+  transform: rotate(2deg) translate(.35em, -.15em) scale(1.02);
+}
+
+
+
+@font-face {
+    font-family: 'happy_foxcondensed';
+    src: url('../fonts/HappyFox-Condensed-webfont.eot');
+    src: url('../fonts/HappyFox-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HappyFox-Condensed-webfont.woff2') format('woff2'),
+         url('../fonts/HappyFox-Condensed-webfont.woff') format('woff'),
+         url('../fonts/HappyFox-Condensed-webfont.ttf') format('truetype'),
+         url('HappyFox-Condensed-webfont.svg#happy_foxcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
