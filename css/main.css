@@ -2,14 +2,13 @@
 	font-size: 90px;
 	text-align: center;
 	font-family: "happy_foxcondensed";
-	margin-top: 10px;
 }
 
 .tagline {
 	font-family: "happy_foxcondensed";
 	font-size: 35px;
 	margin-left: 2%;
-	margin-top: -95px;
+	margin-top: -105px;
 	color: #F20564;
 	text-align: center;
 }
@@ -23,14 +22,38 @@
 	background-color: #BFB89B;
 }
 
+.background-1 {
+   background: #6369C7;
+}
+
 #speech-bubble-intro {
 	width: 230px;
 	display:block;
 	margin: auto;
 }
 
+#dock {
+  width: -600px;
+  height: 3px;
+  background: #5F8465;
+}
+
+#dock-2 {
+  width: 602px;
+  height: 30px;
+  background-image:url(../img/concrete_seamless.png); background-repeat:repeat;
+  margin-left: -518px;
+  margin-top: -11px;
+  border-radius: 8px;
+}
+
 #long-name {
 	display: none;
+}
+
+#intro-bear {
+  width: 100px;
+  margin-left: -15px;
 }
 
 @font-face {
