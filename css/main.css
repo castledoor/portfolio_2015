@@ -45,6 +45,8 @@
   margin-left: -518px;
   margin-top: -11px;
   border-radius: 8px;
+  position: relative;
+  z-index: 30;
 }
 
 #long-name {
@@ -55,6 +57,7 @@
   width: 100px;
   margin-left: -15px;
 }
+
 
 @font-face {
   font-family: 'happy_foxcondensed';
@@ -78,5 +81,59 @@
          url('../fonts/MidnightJunkYard-webfont.svg#midnight_junk_yardregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+
+
+
+
+.wave3{
+  background: #6369C7;
+  height: 40px;
+  margin-top: -14px;
+  width: 63%;
+  /* bottom: 0; */
+  left: 36.04%;
+  position: absolute;
+  z-index: 11;
+  -ms-animation: first 1.5s infinite alternate;
+  -moz-animation: first 1.5s infinite alternate;
+  -webkit-animation: first 1.5s infinite alternate;
+  -o-animation: first 1.5s infinite alternate;
+  animation: first 1.5s infinite alternate;
+}
+
+
+.wave3:after{
+  content:'';
+  width:150px;
+  height:60px;
+  /*background:#BFB89B;*/
+  position:absolute;
+  border-radius:50%;
+  top:-30px;
+  left:-70px;
+  box-shadow:
+    150px 0 0 0 #BFB89B,
+    300px 0 0 0 #BFB89B,
+    450px 0 0 0 #BFB89B,
+    600px 0 0 0 #BFB89B,
+    750px 0 0 0 #BFB89B,
+    900px 0 0 0 #BFB89B,
+    1050px 0 0 0 #BFB89B,
+    1200px 0 0 0 #BFB89B,
+    1350px 0 0 0 #BFB89B,
+    1500px 0 0 0 #BFB89B,
+    1650px 0 0 0 #BFB89B,
+    1800px 0 0 0 #BFB89B,
+    1950px 0 0 0 #BFB89B
+    ;
+}
+
+
+
+@-ms-keyframes first     { 0% { -ms-transform: translatex(-10px); } 100% { -ms-transform: translatex(10px); } }
+@-moz-keyframes first    { 0% { -moz-transform: translatex(-10px); } 100% { -moz-transform: translatex10px); } }
+@-webkit-keyframes first { 0% { -webkit-transform: translatex(-10px); } 100% { -webkit-transform: translatex(10px; } }
+@-o-keyframes first      { 0% { -o-transform: translatex(-10px); } 100% { -o-transform: translatex(10px); } }
+@keyframes first         { 0% { transform: translatex(-10px; } 100% { transform: translatex(10px); } }
