@@ -1,6 +1,7 @@
 
 a {
   color: #fff;
+  text-decoration: none !important;
 }
 
 .rows {
@@ -190,6 +191,22 @@ header p {
   transition: all 0.3s ease-in-out;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .wordy {
   padding-top: 10px;
   padding-bottom: 60px;
@@ -234,9 +251,22 @@ header p {
   margin-left: 262px;
 }
 
+.resume {
+  color: #E8D460;
+  padding: 10px;
+  background: #7BA4B0 ;
+  text-align: center;
+  margin-top:20px;
+  border-radius: 10px
+}
+
 .about, .skill {
   width: 990px;
   margin: auto;
+}
+
+.skill {
+  padding-bottom: 200px;
 }
 
 .skill-title {
@@ -287,12 +317,26 @@ header p {
 	margin: auto;
 }
 
+
+ #curve {
+  width: 100%;
+  height: 100px;
+  border: solid 109px #A18880;
+  border-color: #A18881 transparent transparent transparent;
+  border-radius: 47%/97px 110px 0 0;
+  margin-top: -105px;
+  background: #A18881;
+}
+
+
+
 .background {
-	background-color: #BFB89B;
+	background-color: #EBE6D5;
 }
 
 .background-1 {
    background: #b3d1da;
+
 }
 
 #speech-bubble-intro {
@@ -395,19 +439,19 @@ header p {
   top:-30px;
   left:-70px;
   box-shadow:
-    150px 0 0 0 #BFB89B,
-    300px 0 0 0 #BFB89B,
-    450px 0 0 0 #BFB89B,
-    600px 0 0 0 #BFB89B,
-    750px 0 0 0 #BFB89B,
-    900px 0 0 0 #BFB89B,
-    1050px 0 0 0 #BFB89B,
-    1200px 0 0 0 #BFB89B,
-    1350px 0 0 0 #BFB89B,
-    1500px 0 0 0 #BFB89B,
-    1650px 0 0 0 #BFB89B,
-    1800px 0 0 0 #BFB89B,
-    1950px 0 0 0 #BFB89B
+    150px 0 0 0 #EBE6D5,
+    300px 0 0 0 #EBE6D5,
+    450px 0 0 0 #EBE6D5,
+    600px 0 0 0 #EBE6D5,
+    750px 0 0 0 #EBE6D5,
+    900px 0 0 0 #EBE6D5,
+    1050px 0 0 0 #EBE6D5,
+    1200px 0 0 0 #EBE6D5,
+    1350px 0 0 0 #EBE6D5,
+    1500px 0 0 0 #EBE6D5,
+    1650px 0 0 0 #EBE6D5,
+    1800px 0 0 0 #EBE6D5,
+    1950px 0 0 0 #EBE6D5
     ;
 }
 
