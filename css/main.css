@@ -207,14 +207,49 @@ header p {
   padding-bottom: 10px;
 }
 
-.about-info {
+.about-info, .skill-list {
   font-family: 'Coming Soon', cursive;
 
+}
+
+.skill-list {
+  text-align: justify;
+  line-height: 19px
+}
+
+.sub-title {
+  font-family: "happy_foxcondensed";
+  font-size: 30px;
+  text-align: justify;
+  padding-bottom:10px;
+  padding-top: 10px;
+}
+
+#skill-columns {
+  margin-top: -428px;
+  text-align: center;
+  margin-top: 30p;
+  position: absolute;
+  width: 891px;
+  margin-left: 262px;
 }
 
 .about, .skill {
   width: 990px;
   margin: auto;
+}
+
+.skill-title {
+  position: absolute;
+  width: 929px;
+  margin-top: 53px;
+}
+
+
+
+.skill-words{
+  width: 300px;
+  position: absolute;
 }
 
 .swim-monsters {
