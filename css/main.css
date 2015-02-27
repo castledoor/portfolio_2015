@@ -328,7 +328,13 @@ header p {
   background: #A18881;
 }
 
-
+#turtle {
+  width: 200px;
+  margin-top: -212px;
+  -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
+}
 
 .background {
 	background-color: #EBE6D5;
@@ -363,6 +369,11 @@ header p {
   margin-left: 300px;
   margin-top: -69px;
   z-index: 1;
+}
+
+.footer-email {
+  text-align: center;
+  margin-top:-80px;
 }
 
 #dock-2 {
