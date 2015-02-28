@@ -194,25 +194,13 @@ header p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .wordy {
   padding-top: 10px;
   padding-bottom: 60px;
   text-align: justify;
   font-size: 20px;
-  line-height: 30px
+  line-height: 30px;
+  font-family: "comfortaa_reg";
 
 }
 
@@ -225,8 +213,7 @@ header p {
 }
 
 .about-info, .skill-list {
-  font-family: 'Coming Soon', cursive;
-
+  font-family: "comfortaa_reg";
 }
 
 .skill-list {
@@ -235,8 +222,8 @@ header p {
 }
 
 .sub-title {
-  font-family: "happy_foxcondensed";
-  font-size: 30px;
+  font-family: "comfortaa_bold";
+  font-size: 20px;
   text-align: justify;
   padding-bottom:10px;
   padding-top: 10px;
@@ -421,6 +408,22 @@ header p {
     font-weight: normal;
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'comfortaa_reg';
+         src: url('../fonts/Comfortaa_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comfortaa_bold';
+         src: url('../fonts/Comfortaa_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 
