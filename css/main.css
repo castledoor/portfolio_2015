@@ -242,6 +242,37 @@ header p {
   margin-left: 262px;
 }
 
+.pipe-bubbles {
+  width: 241px;
+  margin-top: -81px;
+}
+
+.social-media {
+  position: absolute;
+  font-size: 60px;
+  opacity: 0;
+}
+
+.instagram {
+  margin-left: 49px;
+  margin-top: -25px;
+}
+
+.linkedin {
+  margin-left: 106px;
+  margin-top: -65px;
+}
+
+.twitter {
+  margin-left: 142px;
+  margin-top: -26px;
+}
+
+.github {
+  margin-top: -73px;
+  margin-left: 163px;
+}
+
 #footer-copy {
   font-family: "comfortaa_reg";
   font-size: 15px;
