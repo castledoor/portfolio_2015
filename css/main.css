@@ -125,7 +125,7 @@ header p {
   left: 0;
   padding-top: 100px;
   background: #BFB89B;
-  background-color: #EBE6D5;
+  background-color: #D4C9A3;
   z-index: 103;
   visibility: hidden;
   -webkit-transform: translateY(-100%);
@@ -191,6 +191,10 @@ header p {
   transition: all 0.3s ease-in-out;
 }
 
+/*everbutton */
+
+
+
 
 
 
@@ -238,14 +242,25 @@ header p {
   margin-left: 262px;
 }
 
+#footer-copy {
+  font-family: "comfortaa_reg";
+  font-size: 15px;
+  text-align: center;
+  color: #66544E;
+  margin-top: 10%;
+  margin-left: 21%;
+}
+
 .resume {
   color: #E8D460;
   padding: 10px;
   background: #7BA4B0 ;
   text-align: center;
   margin-top:20px;
-  border-radius: 10px
+  border-radius: 3px;
+  font-family: "comfortaa_bold";
 }
+
 
 .about, .skill {
   width: 990px;
@@ -317,11 +332,38 @@ header p {
 
 #turtle {
   width: 200px;
-  margin-top: -212px;
+  margin-top: -128px;
   -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(4deg);
 }
+
+.turtle_speech {
+  margin-right: 171px;
+  margin-top: -206px;
+  width: 201px;
+}
+
+#footer-bubble {
+  position: absolute;
+  right: 321px;
+  width: 133px;
+  padding-bottom: 3px;
+  margin-top: -171px;
+  font-family: "comfortaa_reg";
+  font-size: 14px;
+}
+
+.make-a-payment {
+  font-family: "comfortaa_bold";
+  color: #C12D46;
+}
+
+
+.make-a-payment:hover {
+  color: #C12D46 !important;
+}
+
 
 .background {
 	background-color: #EBE6D5;
@@ -361,6 +403,7 @@ header p {
 .footer-email {
   text-align: center;
   margin-top:-80px;
+  color: #66544E;
 }
 
 #dock-2 {
@@ -476,9 +519,6 @@ header p {
 @-webkit-keyframes first { 0% { -webkit-transform: translatex(-10px); } 100% { -webkit-transform: translatex(10px; } }
 @-o-keyframes first      { 0% { -o-transform: translatex(-10px); } 100% { -o-transform: translatex(10px); } }
 @keyframes first         { 0% { transform: translatex(-10px; } 100% { transform: translatex(10px); } }
-
-
-
 
 
 
