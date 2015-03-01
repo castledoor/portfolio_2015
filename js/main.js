@@ -20,4 +20,6 @@ $( document ).ready(function() {
 		        scrollTop: parseInt($("#top").offset().top)
 		    }, 400);
 		});
+
+		$('.single-item').slick();
 });

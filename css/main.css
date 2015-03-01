@@ -155,7 +155,8 @@ header p {
   /*transition: all 0.5s ease-in-out;*/
 }
 .port img {
-  width: 50%;
+  /*width: 50%;*/
+  width: 99%;
 }
 .port .description {
   float: left;
@@ -201,6 +202,22 @@ header p {
   -moz-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
+
+#item09 {
+  top: 366px;
+}
+
+h3 {
+background: #fff;
+color: #3498db;
+font-size: 36px;
+line-height: 100px;
+margin: 10px;
+padding: 2%;
+position: relative;
+text-align: center;
+}
+
 .item_open .close {
   opacity: 1;
   top: 39px;
