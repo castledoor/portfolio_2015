@@ -156,7 +156,7 @@ header p {
 }
 .port img {
   /*width: 50%;*/
-  width: 99%;
+  width: 94%;
 }
 .port .description {
   float: left;
@@ -207,6 +207,42 @@ header p {
   top: 366px;
 }
 
+.slick-prev {
+  height: 24px;
+  width: 24px;
+  background: #5F8465;
+  color: white;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  margin-left: 47%;
+  margin-top: -14%;
+  cursor: pointer;
+  font-family: "comfortaa_bold";
+  font-size: 14px;
+  border: none;
+  position: absolute;
+
+}
+
+.slick-next {
+  height: 24px;
+  width: 24px;
+  background: #5F8465;
+  color: white;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  margin-left: 98%;
+  margin-top: -14%;
+  cursor: pointer;
+  font-family: "comfortaa_bold";
+  font-size: 14px;
+  border: none;
+  position: absolute;
+
+}
+
 h3 {
 background: #fff;
 color: #3498db;
@@ -216,6 +252,10 @@ margin: 10px;
 padding: 2%;
 position: relative;
 text-align: center;
+}
+
+.indent {
+  margin-left: 10px;
 }
 
 .item_open .close {
