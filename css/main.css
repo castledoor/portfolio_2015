@@ -67,6 +67,11 @@ header p {
 .description p {
   font-family: 'comfortaa_reg';
   line-height: 23px;
+  text-align: justify;
+}
+
+.small {
+  font-size: 13px;
 }
 
 
@@ -164,6 +169,8 @@ header p {
   max-height: 100%;
   padding: 0 40px 40px;
   overflow: auto;
+  position: relative;
+  z-index: 30;
 }
 .port h1 {
   font-size: 28px;
@@ -203,14 +210,22 @@ header p {
   transition: all 0.1s ease-in-out;
 }
 
-#item09 {
+#item09, #item01, #item03, #item06, #item07, #item08 {
   top: 366px;
+  height: 483px;
 }
+
+.enlarge {
+  padding-right: 184px;
+  padding-top: 3px;
+}
+
+
 
 .slick-prev {
   height: 24px;
   width: 24px;
-  background: #5F8465;
+  background: #E58A6E;
   color: white;
   border-radius: 100px;
   -moz-border-radius: 100px;
@@ -222,13 +237,13 @@ header p {
   font-size: 14px;
   border: none;
   position: absolute;
-
+  z-index:31;
 }
 
 .slick-next {
   height: 24px;
   width: 24px;
-  background: #5F8465;
+  background: #E58A6E;
   color: white;
   border-radius: 100px;
   -moz-border-radius: 100px;
@@ -389,16 +404,37 @@ text-align: center;
 
 .swim-monsters {
   width: 160px;
+ 
+}
+
+@-webkit-keyframes myfirst {
+    0%   {transform: rotate(5deg);}
+    /*25%  {transform: rotate(25deg);}*/
+    50%  {transform: rotate(20deg);}
+    /*75%  {transform: rotate(25deg);}*/
+    100% {transform: rotate(5deg);}
+}
+
+@-webkit-keyframes myfirst_green {
+    0%   {transform: rotate(-5deg);}
+    /*25%  {transform: rotate(25deg);}*/
+    50%  {transform: rotate(-20deg);}
+    /*75%  {transform: rotate(25deg);}*/
+    100% {transform: rotate(-5deg);}
 }
 
 #red {
   margin-top: 30px;
   margin-right: 100px;
+   -webkit-animation: myfirst 6s infinite; /* Chrome, Safari, Opera */
+  animation: myfirst 6s;
 }
 
 #green {
   margin-left: 16px;
   margin-bottom: -31px;
+   -webkit-animation: myfirst_green 7s infinite; /* Chrome, Safari, Opera */
+  animation: myfirst_green 7s;
 }
 
 
