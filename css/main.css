@@ -1,3 +1,48 @@
+body {
+  overflow-x: hidden;
+
+}
+
+@media all and (max-width: 460px) {
+  .background-1 {
+      padding-left: 123px;
+  }
+
+}
+
+@media all and (max-width: 860px) {
+  .background-1 {
+      padding-left: 162px;
+  }
+
+}
+
+@media all and (max-width: 974px){
+   .background-1 {
+    padding-left: 111px;
+   }
+
+   .wordy {
+    padding-right: 263px !important;
+   }
+
+   .first-title {
+    padding-right: 220px;
+   }
+/*
+   .skill {
+    width: 800px;
+   }*/
+}
+
+
+@media all and (max-width: 1030px){
+   .wordy {
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+}
+
 
 a {
   color: #fff;
@@ -210,6 +255,7 @@ header p {
   transition: all 0.1s ease-in-out;
 }
 
+
 #item09, #item01, #item03, #item06, #item07, #item08 {
   top: 366px;
   height: 483px;
@@ -221,7 +267,9 @@ header p {
 }
 
 
-
+.container-fluid {
+  padding: 0 !important;
+}
 .slick-prev {
   height: 24px;
   width: 24px;
@@ -425,9 +473,9 @@ text-align: center;
 
 #red {
   margin-top: 30px;
-  margin-right: 100px;
    -webkit-animation: myfirst 6s infinite; /* Chrome, Safari, Opera */
   animation: myfirst 6s;
+  margin-bottom: 338px;
 }
 
 #green {
@@ -485,7 +533,7 @@ text-align: center;
 
 #footer-bubble {
   position: absolute;
-  right: 321px;
+  right: 306px;
   width: 133px;
   padding-bottom: 3px;
   margin-top: -171px;
@@ -526,7 +574,7 @@ text-align: center;
 }
 
 #dock {
-  width: -600px;
+  width: 100%;
   height: 3px;
   background: #5F8465;
 }
@@ -564,7 +612,11 @@ text-align: center;
   width: 100px;
   margin-left: -15px;
   padding-top: 8px;
+  position: relative;
+  z-index: 31;
 }
+
+
 
 
 @font-face {
@@ -615,8 +667,8 @@ text-align: center;
   background: #b3d1da;
   height: 40px;
   margin-top: -24px;
-  width: 63.1%;
-  left: 36.04%;
+  width: 100%;
+  left: 2.04%;
   position: absolute;
   z-index: 10;
   -ms-animation: first 1.5s infinite alternate;
@@ -624,6 +676,9 @@ text-align: center;
   -webkit-animation: first 1.5s infinite alternate;
   -o-animation: first 1.5s infinite alternate;
   animation: first 1.5s infinite alternate;
+  margin-top: -30px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .wave3:after{
