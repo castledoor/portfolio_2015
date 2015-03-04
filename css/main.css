@@ -3,36 +3,30 @@ body {
 
 }
 
-@media all and (max-width: 460px) {
+/*@media all and (max-width: 460px) {
   .background-1 {
       padding-left: 123px;
   }
 
 }
 
-@media all and (max-width: 860px) {
+@media all and (max-width: 621px) {
+  .background-1 {
+        padding-left: 177px;
+  }
+}
+
+@media all and (min-width: 621px) and (max-width: 860px) {
   .background-1 {
       padding-left: 162px;
   }
 
 }
 
-@media all and (max-width: 974px){
+@media all and (min-width: 860px) and (max-width: 974px){
    .background-1 {
     padding-left: 111px;
    }
-
-   .wordy {
-    padding-right: 263px !important;
-   }
-
-   .first-title {
-    padding-right: 220px;
-   }
-/*
-   .skill {
-    width: 800px;
-   }*/
 }
 
 
@@ -41,7 +35,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
    }
-}
+}*/
 
 
 a {
@@ -52,7 +46,7 @@ a {
 .rows {
   width: 100%;
   max-width: 990px;
-  margin: 0 auto;
+    margin: 0px 12% 0 6%;
   padding: 0;
   clear: both;
   padding-top:30px;
@@ -125,6 +119,8 @@ header p {
   position: relative;
   overflow: hidden;
   margin-top: -30px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .gallery ul {
@@ -256,7 +252,7 @@ header p {
 }
 
 
-#item09, #item01, #item03, #item06, #item07, #item08 {
+ #item02, #item03, #item04, #item05, #item06, #item07 {
   top: 366px;
   height: 483px;
 }
