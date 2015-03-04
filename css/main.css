@@ -3,39 +3,171 @@ body {
 
 }
 
-/*@media all and (max-width: 460px) {
-  .background-1 {
-      padding-left: 123px;
+
+
+
+
+@media all and (max-width: 490px) {
+
+   #green, #red, #skill-speech-bubble  {
+    opacity: 0;
+  }
+
+
+    #skill-columns {
+       margin-top: -133px;
+       text-align: center;
+       position: absolute;
+       width: 891px;
+       margin-left: 120px;
+  }
+
+  #skill-list {
+    font-size: 12px;
   }
 
 }
 
-@media all and (max-width: 621px) {
-  .background-1 {
-        padding-left: 177px;
+@media all and (min-width:490px) and (max-width: 650px) {
+   #green, #red, #skill-speech-bubble  {
+    opacity: 0;
+  }
+
+
+    #sub-title {
+      font-size: 20px;
+    }
+
+    #skill-columns {
+       margin-top: -133px;
+       text-align: center;
+       position: absolute;
+       width: 891px;
+       margin-left: 192px;
+  }
+
+  #skill-list {
+    font-size: 12px;
+  }
+
+}
+
+@media all and (min-width: 650px) and (max-width: 767px){
+   #green, #red {
+    width: 90px;
+    position: absolute;
+    margin-top: 300px;
+
+
+  }
+
+  #green {
+    margin-left: 86px;
+
+  }
+
+  #red {
+    margin-top: 30px;
+  }
+
+  #skill-speech-bubble {
+    margin-left:98px;
+    width: 350px;
+    margin-left: 177px;
+    padding-bottom: 177px;
+
+
+
+  }
+
+  #sub-title {
+    font-size: 8px;
+  }
+
+  #skill-columns {
+      margin-top: -500px;
+    text-align: center;
+    position: absolute;
+    width: 891px;
+    margin-left: 240px;
+
   }
 }
 
-@media all and (min-width: 621px) and (max-width: 860px) {
-  .background-1 {
-      padding-left: 162px;
+
+@media all and (min-width: 767px) and (max-width: 1000px){
+   #green, #red {
+    width: 120px;
+
   }
 
+  #green {
+    margin-bottom: 191px;
+    margin-left: 109px;
+
+
+  }
+
+  #red {
+    margin-right: 191px;
+    margin-top: 16px;
+    position: absolute;
+
+  }
+
+  #skill-speech-bubble {
+    width: 416px;
+    padding-bottom: 255px;
+  }
+
+  #sub-title {
+    font-size: 12px;
+  }
+
+  #skill-columns {
+    margin-top: -629px;
+    text-align: center;
+    position: absolute;
+    width: 891px;
+    margin-left: 290px;
+  }
 }
 
-@media all and (min-width: 860px) and (max-width: 974px){
-   .background-1 {
-    padding-left: 111px;
-   }
+@media all and (min-width: 1000px) {
+
+  #skill-speech-bubble {
+    margin: auto;
+    width: 500px;
+    padding-bottom: 177px;
+  }
+
+  #green {
+     margin-left: 210px;
+    margin-bottom: 116px;
+
+  }
+
+  #red {
+    margin-right: 244px;
+      padding-top: 29px;
+      position: absolute;
+  }
+
+  #sub-title {
+    font-size: 20px;
+  }
+
+  #skill-columns {
+    margin-top: -584px;
+  text-align: center;
+  position: absolute;
+  width: 891px;
+  margin-left: 438px;
+}
 }
 
 
-@media all and (max-width: 1030px){
-   .wordy {
-    padding-left: 20px;
-    padding-right: 20px;
-   }
-}*/
+
 
 
 a {
@@ -112,7 +244,6 @@ header p {
 .small {
   font-size: 13px;
 }
-
 
 .gallery {
   padding: 0px 0 20px;
@@ -266,6 +397,7 @@ header p {
 .container-fluid {
   padding: 0 !important;
 }
+
 .slick-prev {
   height: 24px;
   width: 24px;
@@ -351,27 +483,26 @@ text-align: center;
   font-family: "comfortaa_reg";
 }
 
+.about-info {
+  padding: 0px 120px 0px 120px ;
+}
+
 .skill-list {
   text-align: justify;
-  line-height: 19px
+  line-height: 14px;
+  font-size:12px;
 }
+
+
 
 .sub-title {
   font-family: "comfortaa_bold";
-  font-size: 20px;
   text-align: justify;
   padding-bottom:10px;
   padding-top: 10px;
 }
 
-#skill-columns {
-  margin-top: -428px;
-  text-align: center;
-  margin-top: 30p;
-  position: absolute;
-  width: 891px;
-  margin-left: 262px;
-}
+
 
 .pipe-bubbles {
   width: 241px;
@@ -468,15 +599,13 @@ text-align: center;
 }
 
 #red {
-  margin-top: 30px;
    -webkit-animation: myfirst 6s infinite; /* Chrome, Safari, Opera */
   animation: myfirst 6s;
-  margin-bottom: 338px;
+  margin-bottom: 532px;
 }
 
 #green {
-  margin-left: 16px;
-  margin-bottom: -31px;
+
    -webkit-animation: myfirst_green 7s infinite; /* Chrome, Safari, Opera */
   animation: myfirst_green 7s;
 }
@@ -564,10 +693,6 @@ text-align: center;
   padding-top: 16px;
 }
 
-#skill-speech-bubble {
-  margin: auto;
-  width: 550px;
-}
 
 #dock {
   width: 100%;
