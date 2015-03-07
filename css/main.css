@@ -8,6 +8,23 @@ body {
   .wave3 {
     display: none;
   }
+
+  body {
+    overflow-x: hidden !important;
+    margin: 0;
+  }
+/*
+  #skill-columns {
+    display: none;
+  }*/
+
+   /*#green, #red, #skill-speech-bubble  {
+    display: none !important;
+  }*/
+
+  #header {
+    font-size: 90px !important;
+  }
 }
 
 
@@ -94,6 +111,13 @@ body {
 .github {
   margin-top: -90px;
     margin-left: 35px;
+}
+
+
+#header {
+  font-size: 90px;
+  text-align: center;
+  font-family: "happy_foxcondensed";
 }
 
 
@@ -186,6 +210,13 @@ body {
     margin-left: 10px;
 }
 
+
+#header {
+  font-size: 90px;
+  text-align: center;
+  font-family: "happy_foxcondensed";
+}
+
 }
 
 @media all and (min-width: 650px) and (max-width: 767px){
@@ -226,6 +257,7 @@ body {
     position: absolute;
     width: 891px;
     margin-left: 240px;
+    /*display: none;*/
 
   }
 
@@ -293,6 +325,13 @@ body {
 .github {
   margin-top: -88px;
   margin-left: 106px;
+}
+
+
+#header {
+  font-size: 90px;
+  text-align: center;
+  font-family: "happy_foxcondensed";
 }
 
 
@@ -403,6 +442,13 @@ body {
     margin-left: 105px
 }
 
+
+#header {
+  font-size: 90px;
+  text-align: center;
+  font-family: "happy_foxcondensed";
+}
+
 }
 
 
@@ -486,8 +532,9 @@ body {
 
 
   .pipe-bubbles {
-    width: 241px;
-    margin-top: -81px;
+    width: 151px;
+    margin-top: -71px;
+    margin-left: 43px;
   }
 
   .instagram {
@@ -509,6 +556,13 @@ body {
     margin-top: -73px;
     margin-left: 163px;
   }
+
+
+#header {
+  font-size: 90px;
+  text-align: center;
+  font-family: "happy_foxcondensed";
+}
  
 }
 
@@ -865,17 +919,18 @@ text-align: center;
   font-size: 14px;
   text-align: center;
   color: #66544E;
-  margin-top: 12%;
+    margin-top: 10%;
 }
 
 .resume {
   color: #E8D460;
-  padding: 10px;
-  background: #7BA4B0 ;
+  /* padding: 93px; */
+  background: #7BA4B0;
   text-align: center;
-  margin-top:20px;
-  border-radius: 3px;
+  /* margin-top: 22px; */
+  /* border-radius: 3px; */
   font-family: "comfortaa_bold";
+  font-size: 30px;
 }
 
 
@@ -935,11 +990,6 @@ text-align: center;
 }
 
 
-#header {
-	font-size: 90px;
-	text-align: center;
-	font-family: "happy_foxcondensed";
-}
 
 .tagline {
 	font-family: "happy_foxcondensed";
@@ -953,6 +1003,7 @@ text-align: center;
 .intro-header {
 	width: 400px;
 	margin: auto;
+  /*padding-bottom: 100px;*/
 }
 
 

@@ -1,4 +1,9 @@
 $( document ).ready(function() {
+
+	  $(document).ready(function(){
+    $("#skill-speech-bubble").replaceWith("<img id='skill-speech-bubble'  src='img/skill_speech_bubble.svg'>");
+    });
+
     $("#header").arctext({radius: 940});
     var data = { loop: true, in: {effect: 'flipInX', sync: true, shuffle: false}, out: {effect: 'flipOutX', sync: true, shuffle: false} };
 		$('.shifter').textillate(data);
