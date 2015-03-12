@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 
-	  $(document).ready(function(){
-    $("#skill-speech-bubble").replaceWith("<img id='skill-speech-bubble'  src='img/skill_speech_bubble.svg'>");
-    });
+	  // $(document).ready(function(){
+    // $("#skill-speech-bubble").replaceWith("<img id='skill-speech-bubble'  src='img/skill_speech_bubble.png'>");
+   //  });
 
     $("#header").arctext({radius: 940});
     var data = { loop: true, in: {effect: 'flipInX', sync: true, shuffle: false}, out: {effect: 'flipOutX', sync: true, shuffle: false} };
@@ -27,10 +27,4 @@ $( document ).ready(function() {
 		});
 
 		$('.single-item').slick();
-
-		// $('.port-image').click(function(){
-  //       $(this).css('width', function(_ , cur){
-  //        return cur === '100px' ? '100%' : '100px'
-  //      });  // original width is 500px 
-  //  });
 });

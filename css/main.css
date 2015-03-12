@@ -13,14 +13,6 @@ body {
     overflow-x: hidden !important;
     margin: 0;
   }
-/*
-  #skill-columns {
-    display: none;
-  }*/
-
-   /*#green, #red, #skill-speech-bubble  {
-    display: none !important;
-  }*/
 
   #header {
     font-size: 90px !important;
@@ -30,149 +22,120 @@ body {
 
 @media all and (max-width: 490px) {
 
-   #green, #red, #skill-speech-bubble  {
-    opacity: 0;
-  }
-
-  #red {
-      margin-bottom: 285px;
-  }
-
-  #footer-copy {
+  /*#footer-copy {
     display: none;
-  }
+  }*/
 
   .footer-email {
-      margin-top: 37px;
-  
-
-        text-align: center !important;
-     color: #66544E;
+    margin-top: 37px;
+    text-align: center !important;
+    color: #66544E;
   }
 
    #footer-bubble {
     display: none;
   }
 
-  .make-a-payment-2 {
+
+/*  .make-a-payment-2 {
     display: block;
     font-family: "comfortaa_bold";
     color: #C12D46;
     text-align: center;
   }
-
-
-    #skill-columns {
-       margin-top: -133px;
-       text-align: center;
-       position: absolute;
-       width: 891px;
-       margin-left: 120px;
-  }
-
+*/
   .skill-list {
     text-align: justify;
-      line-height: 14px;
-      font-size: 12px;
-  }
-
-
-   .col-xs-1 {
-    width: 12.333333%; 
+    line-height: 14px;
+    font-size: 12px;
   }
 
   .turtle_speech {
-      display: none
+    display: none
   }
 
-        .pipe-bubbles {
-
-  margin-top: -91px;
-  width: 160px;
+  .pipe-bubbles {
+    margin-top: -91px;
+    width: 160px;
     margin-left: -70px;
+  }
 
-}
+  .instagram {
+    margin-left: -39px;
+    margin-top: -55px;
+  }
 
-.instagram {
-  margin-left: -39px;
-  margin-top: -55px;
-}
+  .linkedin {
+    margin-left: -2px;
+    margin-top: -84px;
+  }
 
-.linkedin {
-  margin-left: -2px;
-  margin-top: -84px;
-}
+  .twitter {
+    margin-left: 20px;
+      margin-top: -57px;
+  }
 
-.twitter {
-  margin-left: 20px;
-    margin-top: -57px;
-}
+  .github {
+    margin-top: -90px;
+      margin-left: 35px;
+  }
 
-.github {
-  margin-top: -90px;
-    margin-left: 35px;
-}
+  #header {
+    font-size: 90px;
+    text-align: center;
+    font-family: "happy_foxcondensed";
+  }
 
-
-#header {
-  font-size: 90px;
-  text-align: center;
-  font-family: "happy_foxcondensed";
-}
-
+  #skill-columns {
+      text-align: center;
+      width: 100%;
+      background-image: none;
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding-left: 35.5%;
+      background-size: 47%;
+      padding-bottom: 48%;
+      margin-bottom: 2%;
+      margin-top: -21px;
+      font-size: 13px;
+    }
 
 }
 
 @media all and (min-width:490px) and (max-width: 650px) {
-   #green, #red, #skill-speech-bubble  {
-    opacity: 0;
-  }
 
   #red {
-      margin-bottom: 310px;
+    margin-right: 5%; 
+  }
+
+  #turtle {
+    display: none;
+  }
+
+  #green {
+      margin-left: 13%; 
   }
 
   #footer-bubble {
     display: none;
   }
 
-  .make-a-payment-2 {
-    display: block;
-    font-family: "comfortaa_bold";
-    color: #C12D46;
-    text-align: center;
-  }
-
-    #sub-title {
-      font-size: 20px;
+  #skill-columns {
+      text-align: center;
+      width: 100%;
+      background-image: none;
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding-left: 35.5%;
+      background-size: 47%;
+      padding-bottom: 48%;
+      margin-bottom: 2%;
+      margin-top: -21px;
+      font-size: 13px;
     }
-
-    #skill-columns {
-       margin-top: -133px;
-       text-align: center;
-       position: absolute;
-       width: 891px;
-       margin-left: 118px;
   }
-
-  .skill-list {
-    font-size: 13px;
-  }
-
-    .col-xs-1 {
-    width: 12.333333% !important; 
-  }
-
-  #turtle {
-    margin-right: -197px;
-    position: absolute;
-      margin-left: 291px;
-      margin-top: -120px;
-      /*margin-left: 400px;*/
-  }
-
-  .turtle_speech {
-      display: none
+  #sub-title {
+    font-size: 20px;
   }
 
   .footer-email {
@@ -181,185 +144,221 @@ body {
      color: #66544E;
    }
 
+  .pipe-bubbles {
+    margin-top: -91px;
+    width: 160px;
+    margin-left: -93px;
+  }
 
-        .pipe-bubbles {
+  .instagram {
+     margin-left: -63px;
+    margin-top: -55px;
+  }
 
-  margin-top: -91px;
-  width: 160px;
-      margin-left: -93px;
+  .linkedin {
+    margin-left: -26px;
+      margin-top: -84px;
+  }
 
-}
+  .twitter {
+    margin-left: -1px;
+      margin-top: -57px;
+  }
 
-.instagram {
-   margin-left: -63px;
-  margin-top: -55px;
-}
-
-.linkedin {
-  margin-left: -26px;
-    margin-top: -84px;
-}
-
-.twitter {
-  margin-left: -1px;
-    margin-top: -57px;
-}
-
-.github {
-  margin-top: -89px;
-    margin-left: 10px;
-}
+  .github {
+    margin-top: -89px;
+      margin-left: 10px;
+  }
 
 
-#header {
-  font-size: 90px;
-  text-align: center;
-  font-family: "happy_foxcondensed";
-}
-
+  #header {
+    font-size: 90px;
+    text-align: center;
+    font-family: "happy_foxcondensed";
+  }
 }
 
 @media all and (min-width: 650px) and (max-width: 767px){
-   #green, #red {
-    width: 90px;
-    position: absolute;
-    margin-top: 300px;
 
-
+    #red {
+    margin-right: 5%; 
   }
 
   #green {
-    margin-left: 86px;
+      margin-left: 13%; 
+  }
+
+  .gallery {
+    margin-left: 10%; 
 
   }
 
-  #red {
-    margin-top: 30px;
-  }
 
   #skill-speech-bubble {
     margin-left:98px;
     width: 350px;
     margin-left: 177px;
     padding-bottom: 177px;
-
-
-
   }
 
   #sub-title {
     font-size: 8px;
   }
 
-  #skill-columns {
-      margin-top: -500px;
-    text-align: center;
-    position: absolute;
-    width: 891px;
-    margin-left: 240px;
-    /*display: none;*/
-
-  }
 
   .skill-list {
     text-align: justify;
-      line-height: 14px;
-      font-size: 12px;
+    line-height: 14px;
+    font-size: 12px;
   }
 
-   .col-xs-1 {
-    width: 8.333333% !important; 
+  .footer-email {
+    margin-top:-80px;
+    color: #66544E;
+    text-align: center !important;
   }
 
-  #turtle {
-      width: 108px;
+  .pipe-bubbles {
+    margin-top: -91px;
+    width: 160px;
+  }
 
+  .instagram {
+    margin-left: 31px;
+    margin-top: -58px;
+  }
+
+  .linkedin {
+    margin-left: 68px;
+    margin-top: -84px;
+  }
+
+  .twitter {
+    margin-left: 91px;
+     margin-top: -56px;
+  }
+
+  .github {
+    margin-top: -88px;
+    margin-left: 106px;
+  }
+
+  #header {
+    font-size: 90px;
+    text-align: center;
+    font-family: "happy_foxcondensed";
+  }
+
+ #skill-columns {
+  text-align: center;
+  width: 100%;
+  background-image: url(../img/skill_speech_bubble.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 47%;
+  padding-bottom: 48%;
+  margin-bottom: 2%;
+  margin-top: -21px;
+   padding-left: 28.5%;
 
   }
 
+  .turtle_speech  {
+    display: none
+  }
+}
+
+@media all and (max-width: 850px) {
   .turtle_speech {
-     margin-right: 79px;
-  margin-top: -186px;
+    display: none;
   }
 
   #footer-bubble {
-        width: 96px;
-      margin-right: 101px;
-      margin-top: -165px;
-      font-size: 11px;
+    display: none;
   }
 
-    .make-a-payment-2 {
-  display: none;
-  
-}
+  .make-a-payment-2 {
+    font-family: "comfortaa_bold";
+    color: #C12D46;
+    display: block !important;
 
-.footer-email {
-     margin-top:-80px;
-     color: #66544E;
-     text-align: center !important;
-   }
+  }
 
-      .pipe-bubbles {
+  .make-a-payment-2:hover {
+    color:  #C12D46;
+  }
 
-  margin-top: -91px;
-  width: 160px;
-}
-
-
-.instagram {
-    margin-left: 31px;
-  margin-top: -58px;
-}
-
-.linkedin {
-  margin-left: 68px;
-    margin-top: -84px;
-}
-
-.twitter {
-  margin-left: 91px;
-    margin-top: -56px;
-}
-
-.github {
-  margin-top: -88px;
-  margin-left: 106px;
-}
-
-
-#header {
-  font-size: 90px;
-  text-align: center;
-  font-family: "happy_foxcondensed";
-}
-
-
-
-}
-
-
-@media all and (min-width: 767px) and (max-width: 1000px){
-   #green, #red {
-    width: 120px;
+  #red {
+     -webkit-animation: myfirst 6s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst 6s;
+      margin-right: 14%;
+        margin-top: -50px;
 
   }
 
   #green {
-    margin-bottom: 191px;
-    margin-left: 109px;
 
+     -webkit-animation: myfirst_green 7s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst_green 7s;
+      margin-left: 156px;
+
+     margin-top: -11%;
 
   }
 
-  #red {
+
+}
+
+@media all and (min-width: 767px) and (max-width: 1000px){
+
+.turtle_speech {
+  width: 147px;
+  margin-top: -231px;
+  margin-left: 29%;
+  }
+
+   #footer-bubble {
+   width: 24%;
+   font-size: 10px;
+   margin-top: -22%;
+   margin-left: 33%;
+  }
+/*  #skill-columns {
+    text-align: center;
+    width: 100%;
+    background-image: url(../img/skill_speech_bubble.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 34.5%;
+    background-size: 44%;
+    padding-bottom: 59%;
+    margin-bottom: 2%;
+    margin-top: -75px;
+  }
+
+  #inside-bubble {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    margin-left: 14px;
+  }*/
+
+  /*.column-1, .column-2, .column-3 {
+      margin-top: 87px;
+  }
+*/
+ /* .skill-words {
+    width: 85px;
+  }*/
+
+ /* #red {
     margin-right: 191px;
     margin-top: 16px;
     position: absolute;
 
-  }
+  }*/
 
-  #skill-speech-bubble {
+  /*#skill-speech-bubble {
     width: 416px;
     padding-bottom: 255px;
   }
@@ -395,7 +394,6 @@ body {
   }
 
   #footer-bubble {
-    /* position: absolute; */
     width: 100px;
     padding-bottom: 3px;
     margin-right: 96px;
@@ -447,7 +445,24 @@ body {
   font-size: 90px;
   text-align: center;
   font-family: "happy_foxcondensed";
-}
+}*/
+
+#red {
+     -webkit-animation: myfirst 6s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst 6s;
+      margin-right: 14%;
+
+  }
+
+  #green {
+
+     -webkit-animation: myfirst_green 7s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst_green 7s;
+     margin-left: 14%;
+     margin-top: -11%;
+
+  }
+
 
 }
 
@@ -462,79 +477,40 @@ body {
     padding-bottom: 177px;
   }
 
-  #green {
-     margin-left: 210px;
-    margin-bottom: 116px;
-
-  }
-
-  #red {
-    margin-right: 244px;
-      padding-top: 29px;
-      position: absolute;
-  }
-
   #sub-title {
     font-size: 20px;
   }
 
-  #skill-columns {
-   margin-top: -584px;
-   text-align: center;
-   position: absolute;
-   width: 891px;
-  margin-left: 467px;
-  }
-
-  .skill-list {
-    text-align: justify;
-      line-height: 19px;
-      font-size: 17px;
-  }
-
-   .col-xs-1 {
-    width: 12.333333% !important; 
-  }
-
-  #turtle {
-    width: 200px;
-  }
-
   .turtle_speech {
-      margin-right: 171px;
-  margin-top: -206px;
-    width: 201px;
+    margin-right: 85px;
+    width: 164px;
+    margin-top: -225px;
+      margin-left: 30%;
   }
 
-  #footer-bubble {
-    /*position: absolute;*/
-    width: 133px;
-    padding-bottom: 3px;
-    font-size: 14px;
-      margin-right: 203px;
-  margin-top: -168px;
-  }
-
-  #red {
-      margin-bottom: 532px;
+   #footer-bubble {
+   width: 20%;
+   font-size: 10px;
+   margin-top: -22%;
+   margin-left: 33%;
   }
 
   .make-a-payment-2 {
-  display: none;
-  
-}
+    display: none;
 
-   .footer-email {
-     text-align: center !important;
-     margin-top:-80px;
-     color: #66544E;
-   }
+  }
+
+  .footer-email {
+    text-align: center !important;
+    margin-top:-80px;
+    color: #66544E;
+  }
 
 
   .pipe-bubbles {
     width: 151px;
-    margin-top: -71px;
     margin-left: 43px;
+    margin-top: -49px;
   }
 
   .instagram {
@@ -558,25 +534,112 @@ body {
   }
 
 
-#header {
-  font-size: 90px;
+  #header {
+    font-size: 90px;
+    text-align: center;
+    font-family: "happy_foxcondensed";
+  }
+
+  #skill-columns {
   text-align: center;
-  font-family: "happy_foxcondensed";
-}
+  width: 100%;
+  background-image: url(../img/skill_speech_bubble.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 35.5%;
+  background-size: 47%;
+  padding-bottom: 48%;
+  margin-bottom: 2%;
+  margin-top: -21px;
+  /*font-size: 13px*/
+  }
+
+  #red {
+     -webkit-animation: myfirst 6s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst 6s;
+      margin-right: 14%;
+
+  }
+
+  #green {
+
+     -webkit-animation: myfirst_green 7s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst_green 7s;
+     margin-left: 14%;
+     margin-top: -11%;
+
+  }
  
 }
 
+@media all and (min-width: 1000px)  and (max-width: 1500px) {
+
+  #red {
+     -webkit-animation: myfirst 6s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst 6s;
+      margin-right: 14%;
+
+  }
+
+  #green {
+
+     -webkit-animation: myfirst_green 7s infinite; /* Chrome, Safari, Opera */
+    animation: myfirst_green 7s;
+     margin-left: 14%;
+     margin-top: -11%;
+
+  }
+
+  .skill-words {
+   font-size: 18px;
+  }
+}
+
+.make-a-payment-2 {
+  font-family: "comfortaa_bold";
+  color: #C12D46;
+  display: none;
+    text-align: center;
+}
+
+#skill-columns {
+  text-align: center;
+  width: 100%;
+  /*background-image: url(../img/skill_speech_bubble.png);*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 35.5%;
+  background-size: 47%;
+  padding-bottom: 48%;
+  margin-bottom: 2%;
+  margin-top: -21px;
+  font-size: 13px;
+}
 
 
+.column-1,
+.column-2,
+.column-3  {
+  margin-right: 8%;
+  margin-top: 11%;
+}
+
+.right-footer {
+  height: 79px;
+    margin-top: -73px;
+}
 
 a {
   color: #fff;
   text-decoration: none !important;
 }
 
-  #footer-bubble {
-    font-family: "comfortaa_reg";
-  }
+#footer-bubble {
+  font-family: "comfortaa_reg";
+  position: absolute;
+  z-index: 40;
+   margin-top: -96px; 
+}
 
 .rows {
   width: 100%;
@@ -653,8 +716,8 @@ header p {
   position: relative;
   overflow: hidden;
   margin-top: -30px;
-  padding-left: 120px;
   padding-right: 120px;
+  padding-left: 161px;
 }
 
 .gallery ul {
@@ -767,8 +830,8 @@ header p {
 }
 .port > * {
   opacity: 1;
-  -webkit-transition-delay: 0.5s;
-  transition-delay: 0.5s;
+  /*-webkit-transition-delay: 0.5s;*/
+  /*transition-delay: 0.5s;*/
 }
 
 .close {
@@ -894,17 +957,12 @@ text-align: center;
   text-align: justify;
 }
 
-
-
 .sub-title {
   font-family: "comfortaa_bold";
   text-align: justify;
   padding-bottom:10px;
   padding-top: 10px;
 }
-
-
-
 
 .social-media {
   position: absolute;
@@ -919,16 +977,13 @@ text-align: center;
   font-size: 14px;
   text-align: center;
   color: #66544E;
-    margin-top: 10%;
+  margin-top: 0%;
 }
 
 .resume {
   color: #E8D460;
-  /* padding: 93px; */
   background: #7BA4B0;
   text-align: center;
-  /* margin-top: 22px; */
-  /* border-radius: 3px; */
   font-family: "comfortaa_bold";
   font-size: 30px;
 }
@@ -949,15 +1004,18 @@ text-align: center;
   margin-top: 53px;
 }
 
-
-
-.skill-words{
-  width: 300px;
+/*#inside-bubble {
+  width: 400px;
+  height: 500px;
   position: absolute;
+  margin-top: -19px;
 }
+*/
+
+
 
 .swim-monsters {
-  width: 160px;
+  width: 11%;
  
 }
 
@@ -977,17 +1035,7 @@ text-align: center;
     100% {transform: rotate(-5deg);}
 }
 
-#red {
-   -webkit-animation: myfirst 6s infinite; /* Chrome, Safari, Opera */
-  animation: myfirst 6s;
 
-}
-
-#green {
-
-   -webkit-animation: myfirst_green 7s infinite; /* Chrome, Safari, Opera */
-  animation: myfirst_green 7s;
-}
 
 
 
@@ -1015,15 +1063,9 @@ text-align: center;
   border-radius: 47%/97px 110px 0 0;
   margin-top: -105px;
   background: #A18881;
+  margin-top: -3%
 }
 
-#turtle {
-  /*width: 200px;*/
-  margin-top: -128px;
-  -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(4deg);
-}
 
 
 
@@ -1055,6 +1097,12 @@ text-align: center;
   padding-top: 16px;
 }
 
+#turtle{
+    width: 32%;
+    margin-top: -17%;
+      position: relative;
+  z-index: 20;
+}
 
 #dock {
   width: 100%;
@@ -1062,13 +1110,6 @@ text-align: center;
   background: #5F8465;
 }
 
-#bouye {
-  position: absolute;
-  width: 80px;
-  margin-left: 300px;
-  margin-top: -69px;
-  z-index: 1;
-}
 
 
 #dock-2 {

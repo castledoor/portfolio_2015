@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-  	<link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=1100" />
     <meta name="description" content="Hello everyone, I'm Brittany Winston">
     <meta name="keywords" content="brittany winston, jazzy, web developement, ruby, rails, javascript, animation, graphic design, web design">
-        <meta name="author" content="Brittany Winston">
+    <meta name="author" content="Brittany Winston">
     <title>Brittany is Awesome!</title>
   	<link rel="stylesheet" href="css/bootstrap.css">
-
-  	<link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/lightbox.css">
-   
-
+  	<link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
      <link rel="shortcut icon" type="image/ico" href="http://brittanywinston.site44.com/img/piggy.png" />
-     <link rel="icon" href="http://brittanywinston.site44.com/img/piggy.png" type="image/x-icon" /> 
-     <link rel="shortcut icon" href="http://brittanywinston.site44.com/img/piggy.png"  type="image/x-icon" />
-  	
-
   </head>
   <body>
   	<div class="container-fluid">
@@ -60,49 +54,49 @@
                 <a href="#" class="close"></a>
                 <li>
                   <a  class="image" href="#item01">
-                    <img src="img/big_cartel/main.jpg" alt="">
+                    <img src="img/big_cartel/main.jpg" height="172" width="230" alt="">
                   </a>
                 </li>
 
                 <li>
                   <a  class="image" href="#item02">
-                    <img src="img/client_facing/main.jpg" alt="">
+                    <img src="img/client_facing/main.jpg" height="172" width="230" alt="">
                   </a>
                 </li>
 
                 <li>
                   <a class="image" href="#item03">
-                    <img src="img/robb_rock/main.jpg" alt="">
+                    <img src="img/robb_rock/main.jpg" height="172" width="230" alt="">
                   </a>
                 </li>
 
                 <li>
                   <a class="image" href="#item04">
-                    <img src="img/tyler_gary/main.jpg" alt="">
+                    <img src="img/tyler_gary/main.jpg" height="172" width="230" alt="">
                   </a>
                 </li>
 
                 <li>
                   <a class="image" href="#item05">
-                    <img src="img/watch_tower/main_icann.jpg" alt="">
+                    <img src="img/watch_tower/main_icann.jpg" height="172" width="230" alt="">
                   </a>
                 </li>
 
                 <li>
                   <a class="image" href="#item06">
-                    <img src="img/watch_tower/watch_tower.jpg" alt="">
+                    <img src="img/watch_tower/watch_tower.jpg" height="172" width="230" alt="">
                   </a>
                 </li>
 
                 <li>
                   <a class="image" href="#item07">
-                    <img src="img/watch_tower/main_epicountdown.jpg" alt="">
+                    <img src="img/watch_tower/main_epicountdown.jpg" height="172" width="230" alt="">
                   </a>
                 </li>
 
                 <li>
                   <a  href="docs/resume_2015.pdf">
-                    <img src="img/resume_2.jpg">
+                    <img src="img/resume_2.jpg" height="172" width="230">
                   </a>
                 </li>
               </ul>
@@ -268,78 +262,90 @@
       </div>
         
       <div class="container-fluid">
-        <div class="row background-1 skills">
-          <p class="title first-title"> Skills: </p>
-            <img id="green" class="swim-monsters" src="img/swim_monster_green.png">
-            <img id="skill-speech-bubble"  src="img/skill_speech_bubble.png">
-            <img id="red" class="pull-right swim-monsters" src="img/swim_monster_1.png">
+        <div class="background-1 skills">
+          <p class="title first-title"> Skills:</p>
+           <img id="red" class="pull-right swim-monsters" src="img/swim_monster_1.png">
+           <div id="inside-bubble">
           <div id="skill-columns">
-            <div class="skill-words col-xs-1 columns">
-              <p class="sub-title">Back End</p>
-              <p class="skill-list">Ruby</p>
-              <p class="skill-list">Rails</p>
-              <p class="skill-list">TDD</p>
-              <p class="skill-list">Object Oriented Design</p>
-              <p class="skill-list">API implmentation</p>
-              <p class="sub-title">Database</p>
-              <p class="skill-list">mySQL</p>
-              <p class="skill-list">Postgres</p>
-           
-            </div>
-            <div class="skill-words col-xs-1 columns">
-              <p class="sub-title">Front End</p>
-              <p class="skill-list">Javascript</p>
-              <p class="skill-list">jQuery</p>
-              <p class="skill-list">AJAX</p>
-              <p class="skill-list">HTML/CSS/ SASS</p>
-              <p class="skill-list">Bootstrap/ Foundation</p>
-              <p class="sub-title">Design 2D/3D</p>
-              <p class="skill-list">Photoshop  Illustrator</p>
-              <p class="skill-list">Sketchup</p>
-              <p class="skill-list">Autocad</p>
-              <p class="skill-list">Rhino</p>
-              <p class="skill-list">Artlantis</p>
-            </div>
-            <div class="skill-words col-xs-1 columns">
-              <p class="sub-title">Testing</p>
-              <p class="skill-list">Rspec</p>
-              <p class="skill-list">Mocha/Chai</p>
-              <p class="skill-list">Capybara</p>
-              <p class="sub-title">Other</p>
-              <p class="skill-list">Git  Heroku</p>
-              <p class="skill-list">Capistrano</p>
-              <p class="skill-list">Pair programming</p>
-              <p class="skill-list">Agile techniques</p>
-            </div>
+            
+             <ul class="skill-words col-xs-1 column-1">
+              <li class="sub-title">Back End</li>
+              <li class="skill-list">Ruby</li>
+              <li class="skill-list">Rails</li>
+              <li class="skill-list">TDD</li>
+              <li class="skill-list">Object Oriented Design</li>
+              <li class="skill-list">API implmen- tation</li>
+              <li class="sub-title">Database</li>
+              <li class="skill-list">mySQL</li>
+              <li class="skill-list">Postgres</li>
+            </ul>
+            <ul class="skill-words col-xs-1 column-2">
+              <li class="sub-title">Front End</li>
+              <li class="skill-list">Javascript</li>
+              <li class="skill-list">jQuery</li>
+              <li class="skill-list">AJAX</li>
+              <li class="skill-list">HTML/CSS/ SASS</li>
+              <li class="skill-list">Bootstrap/ Foundation</li>
+              <li class="sub-title">Design 2D/3D</li>
+              <li class="skill-list">Photoshop  Illustrator</li>
+              <li class="skill-list">Sketchup</li>
+              <li class="skill-list">Autocad</li>
+              <li class="skill-list">Rhino</li>
+             
+            </ul>
+            <ul class="skill-words col-xs-1 column-3">
+              <li class="sub-title">Testing</li>
+              <li class="skill-list">Rspec</li>
+              <li class="skill-list">Mocha/Chai</li>
+              <li class="skill-list">Capybara</li>
+              <li class="sub-title">Other</li>
+              <li class="skill-list">Git  Heroku</li>
+              <li class="skill-list">Capistrano</li>
+              <li class="skill-list">Pair pro- gramming</li>
+              <li class="skill-list">Agile techniques</li>
+            </ul>
           </div>
-         </div>
+          </div>
+            <img id="green" class="swim-monsters" src="img/swim_monster_green.png">
+          
+           
+
+            <div class="container-fluid  skills">
+              <div class="row">
+                <div id="curve">
+                  <div class="col-xs-7">
+                    <p class="social-media instagram"><a href="https://instagram.com/tallgirltaadaa/">O</p>
+                    <a href="https://linkedin.com/in/brittanywinston/"> <p class="social-media linkedin">O</p><a>
+                    <a href="https://twitter.com/tallgirltaadaa"><p class="social-media twitter">O</p></a>
+                    <a href="https://github.com/castledoor"><p class="social-media github">O</p></a>
+                    <img class="pull-left pipe-bubbles" src="img/bubbles.png">
+                   
+                   </div>
+                   <div class="right-footer col-xs-5">
+                      <img class="turtle_speech" src="img/turtle_speech_bubble.svg">
+                      <p id="footer-bubble" class="pull-right">
+                        Working with Brittany to get your newest project up? </br>
+                        You can </br><a id="everbutton-1225-1408957650-91" class="make-a-payment everbutton-1225-1408957650-91" href="https://www.everbutton.com/pay/1225">MAKE A PAYMENT</a>
+                         here.
+                      </p>
+                      <img id="turtle" class="pull-right" src="img/turtle.png">
+                   </div>
+                  
+               
+                  
+                  <p class="sub-title footer-email"> b.jazzy.w@gmail.com </p>
+                  <div class="col-xs-12">
+                  <p id="footer-copy">&copy; 2015, All rights reserved designed, illustrated, and developed by Brittany Winston
+                  </p>
+                   <a id="everbutton-1225-1408957650-91" class="make-a-payment-2 everbutton-1225-1408957650-91" href="https://www.everbutton.com/pay/1225">MAKE A PAYMENT</a>
+                 </div>
+                </div>
+              </div>
+            </div>
+
         </div>
       </div>
-      <div class="container-fluid  skills">
-        <div class="row">
-          <div id="curve">
-            <div id="turtle-speech">
-              <img class="pull-right turtle_speech" src="img/turtle_speech_bubble.svg">
-              <p id="footer-bubble" class="pull-right">
-                Working with Brittany to get your newest project up? </br>
-                You can </br><a id="everbutton-1225-1408957650-91" class="make-a-payment everbutton-1225-1408957650-91" href="https://www.everbutton.com/pay/1225">MAKE A PAYMENT</a>
-                 here.
-              </p>
-             
-            </div>
-            <p class="social-media instagram"><a href="https://instagram.com/tallgirltaadaa/">O</p>
-            <a href="https://linkedin.com/in/brittanywinston/"> <p class="social-media linkedin">O</p><a>
-            <a href="https://twitter.com/tallgirltaadaa"><p class="social-media twitter">O</p></a>
-            <a href="https://github.com/castledoor"><p class="social-media github">O</p></a>
-            <img class="pull-left pipe-bubbles" src="img/bubbles.png">
-            <img id="turtle" class="pull-right" src="img/turtle.png">
-            <p class="sub-title footer-email"> b.jazzy.w@gmail.com </p>
-            <p id="footer-copy">&copy; 2015, All rights reserved designed, illustrated, and developed by Brittany Winston
-            </p>
-             <a id="everbutton-1225-1408957650-91" class="make-a-payment-2 everbutton-1225-1408957650-91" href="https://www.everbutton.com/pay/1225">MAKE A PAYMENT</a>
-                 
-          </div>
-        </div>
+    
     </div><!--  big container -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
